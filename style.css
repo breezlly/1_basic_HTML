@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;    
+    margin-bottom: 30px;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header__info-item {
+    margin-bottom: 10px;
+}
+
+.suptitle {
+    font-weight: 400;
+}
+
+.title__info {
+    font-weight: 700;
+}
+
+.header__wrapper {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header__img img{
+    width: 226px;
+    height: 226px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+/*###### GOALS ################## */
+
+.goals__wrapper,.times__wrapper,.courses__wrapper,.social__wrapper {
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background: #fbf9f1;  
+}
+
+.goals__list {
+    text-align: center;
+}
+
+.goals__list-item {
+    font-size: 17px;
+    margin-bottom: 8px;
+    background: #f5d7bf;
+    padding: 10px;
+    border-radius: 15px
+}
+
+/*###### TIMES ################## */
+
+.times__inner {
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.times__days {
+    margin-right: 30px;    
+}
+
+/*###### table ################## */
+
+.courses__table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 15px;
+    background: #ece9e0;     
+    border-radius: 15px;   
+}
+
+th {
+    font-weight: 700;
+    padding: 3px;
+}
+
+td {
+    background: #f5d7bf;  
+    padding: 3px;  
+}
+
+/*###### social ################## */
+
+.social__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.social__item img {
+    width: 100px;
+    height: 100px;
+}
+
+.social__item-name {
+    font-weight: 700;
+}
+
+.social__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+}
